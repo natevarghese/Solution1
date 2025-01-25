@@ -1,0 +1,4 @@
+framework module Mapbox_Bindings_Objc {
+  header "Mapbox_Bindings_Objc-Swift.h"
+  requires objc
+}

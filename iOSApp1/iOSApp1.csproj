@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net9.0-ios</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>true</ImplicitUsings>
+        <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+
+        <!--
+          Enable full trimming in Release mode.
+          To learn more, see: https://learn.microsoft.com/dotnet/core/deploying/trimming/trimming-options#trimming-granularity
+        -->
+        <TrimMode Condition="'$(Configuration)' == 'Release'">full</TrimMode>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <CodesignKey>Apple Development: Nathan Varghese (9YF87C2647)</CodesignKey>
+      <CodesignProvision>KLI Mobile Dev</CodesignProvision>
+    </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Mapbox.Bindings.iOS\Mapbox.Bindings.iOS.csproj" />
+      <ProjectReference Include="..\Mapbox.Maps.iOS\Mapbox.Maps.iOS.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <NativeReference Include="Frameworks\MapboxCommon.xcframework">
+            <Kind>Framework</Kind>
+            <SmartLink>False</SmartLink>
+        </NativeReference>
+        <NativeReference Include="Frameworks\MapboxCoreMaps.xcframework">
+            <Kind>Framework</Kind>
+            <SmartLink>False</SmartLink>
+        </NativeReference>
+        <NativeReference Include="Frameworks\MapboxMaps.xcframework">
+            <Kind>Framework</Kind>
+            <SmartLink>False</SmartLink>
+        </NativeReference>
+        <NativeReference Include="Frameworks\Turf.xcframework">
+            <Kind>Framework</Kind>
+            <SmartLink>False</SmartLink>
+        </NativeReference>
+        <NativeReference Include="Frameworks\Mapbox.Bindings.Objc.xcframework">
+            <Kind>Framework</Kind>
+            <SmartLink>False</SmartLink>
+        </NativeReference>
+    </ItemGroup>
+    <!-- for Error: iOS Release deployment with .NET 9.0. Could not find the type 'ObjCRuntime.__Registrar__ -->
+    <!--	 https://github.com/xamarin/xamarin-macios/wiki/.NET-9-release-notes#type-registrar-managed-static-as-the-new-default -->
+    <Target Name="SelectStaticRegistrar" AfterTargets="SelectRegistrar">
+        <PropertyGroup Condition="'$(Registrar)' == 'managed-static'">
+            <Registrar>static</Registrar>
+        </PropertyGroup>
+    </Target>
+</Project>

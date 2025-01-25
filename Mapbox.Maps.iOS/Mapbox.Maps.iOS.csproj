@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0-ios</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>true</ImplicitUsings>
+		<IsBindingProject>true</IsBindingProject>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<NoBindingEmbedding>false</NoBindingEmbedding>
+	</PropertyGroup>
+	<ItemGroup>
+		<ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+	</ItemGroup>
+	<ItemGroup>
+		<ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+	</ItemGroup>
+	<!-- for Error: iOS Release deployment with .NET 9.0. Could not find the type 'ObjCRuntime.__Registrar__ -->
+	<!--	 https://github.com/xamarin/xamarin-macios/wiki/.NET-9-release-notes#type-registrar-managed-static-as-the-new-default -->
+	<Target Name="SelectStaticRegistrar" AfterTargets="SelectRegistrar">
+		<PropertyGroup Condition="'$(Registrar)' == 'managed-static'">
+			<Registrar>static</Registrar>
+		</PropertyGroup>
+	</Target>
+</Project>

@@ -1,0 +1,4911 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "Mapbox_Bindings_Objc",
+    "printedName": "Mapbox_Bindings_Objc",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Mapbox_Bindings_Objc",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Mapbox_Bindings_Objc"
+      },
+      {
+        "kind": "Import",
+        "name": "MapboxMaps",
+        "printedName": "MapboxMaps",
+        "declKind": "Import",
+        "moduleName": "Mapbox_Bindings_Objc"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MapInitOptionsFactory",
+        "printedName": "MapInitOptionsFactory",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(accessToken:style:centerLat:centerLon:zoom:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MapInitOptions",
+                "printedName": "MapboxMaps.MapInitOptions",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapInitOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapInitOptionsFactory(cm)createWithAccessToken:style:centerLat:centerLon:zoom:",
+            "mangledName": "$s20Mapbox_Bindings_Objc21MapInitOptionsFactoryC6create11accessToken5style9centerLat0L3Lon4zoom0A4Maps0deF0CSS_SSS3dtFZ",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "static": true,
+            "objc_name": "createWithAccessToken:style:centerLat:centerLon:zoom:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MapInitOptionsFactory",
+                "printedName": "Mapbox_Bindings_Objc.MapInitOptionsFactory",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapInitOptionsFactory"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapInitOptionsFactory(im)init",
+            "mangledName": "$s20Mapbox_Bindings_Objc21MapInitOptionsFactoryCACycfc",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapInitOptionsFactory",
+        "mangledName": "$s20Mapbox_Bindings_Objc21MapInitOptionsFactoryC",
+        "moduleName": "Mapbox_Bindings_Objc",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MapBounds",
+        "printedName": "MapBounds",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "northEast",
+            "printedName": "northEast",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LatLng",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng",
+                    "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(py)northEast",
+            "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC9northEastAA6LatLngCSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LatLng",
+                        "printedName": "Mapbox_Bindings_Objc.LatLng",
+                        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(im)northEast",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC9northEastAA6LatLngCSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LatLng",
+                        "printedName": "Mapbox_Bindings_Objc.LatLng",
+                        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(im)setNorthEast:",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC9northEastAA6LatLngCSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc9MapBoundsC9northEastAA6LatLngCSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC9northEastAA6LatLngCSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "southWest",
+            "printedName": "southWest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LatLng",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng",
+                    "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(py)southWest",
+            "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC9southWestAA6LatLngCSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LatLng",
+                        "printedName": "Mapbox_Bindings_Objc.LatLng",
+                        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(im)southWest",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC9southWestAA6LatLngCSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LatLng",
+                        "printedName": "Mapbox_Bindings_Objc.LatLng",
+                        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(im)setSouthWest:",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC9southWestAA6LatLngCSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc9MapBoundsC9southWestAA6LatLngCSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC9southWestAA6LatLngCSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "center",
+            "printedName": "center",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LatLng",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng",
+                    "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(py)center",
+            "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC6centerAA6LatLngCSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LatLng",
+                        "printedName": "Mapbox_Bindings_Objc.LatLng",
+                        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(im)center",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC6centerAA6LatLngCSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LatLng",
+                        "printedName": "Mapbox_Bindings_Objc.LatLng",
+                        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(im)setCenter:",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC6centerAA6LatLngCSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc9MapBoundsC6centerAA6LatLngCSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC6centerAA6LatLngCSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zoom",
+            "printedName": "zoom",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(py)zoom",
+            "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC4zoomSdvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(im)zoom",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC4zoomSdvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(im)setZoom:",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC4zoomSdvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc9MapBoundsC4zoomSdvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC4zoomSdvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MapBounds",
+                "printedName": "Mapbox_Bindings_Objc.MapBounds",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds(im)init",
+            "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsCACycfc",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds",
+        "mangledName": "$s20Mapbox_Bindings_Objc9MapBoundsC",
+        "moduleName": "Mapbox_Bindings_Objc",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LatLng",
+        "printedName": "LatLng",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lat",
+            "printedName": "lat",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng(py)lat",
+            "mangledName": "$s20Mapbox_Bindings_Objc6LatLngC3latSdvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng(im)lat",
+                "mangledName": "$s20Mapbox_Bindings_Objc6LatLngC3latSdvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng(im)setLat:",
+                "mangledName": "$s20Mapbox_Bindings_Objc6LatLngC3latSdvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc6LatLngC3latSdvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc6LatLngC3latSdvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lon",
+            "printedName": "lon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng(py)lon",
+            "mangledName": "$s20Mapbox_Bindings_Objc6LatLngC3lonSdvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng(im)lon",
+                "mangledName": "$s20Mapbox_Bindings_Objc6LatLngC3lonSdvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng(im)setLon:",
+                "mangledName": "$s20Mapbox_Bindings_Objc6LatLngC3lonSdvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc6LatLngC3lonSdvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc6LatLngC3lonSdvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LatLng",
+                "printedName": "Mapbox_Bindings_Objc.LatLng",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng(im)init",
+            "mangledName": "$s20Mapbox_Bindings_Objc6LatLngCACycfc",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng",
+        "mangledName": "$s20Mapbox_Bindings_Objc6LatLngC",
+        "moduleName": "Mapbox_Bindings_Objc",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MapViewFactory",
+        "printedName": "MapViewFactory",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "emitLog",
+            "printedName": "emitLog",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(py)emitLog",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC7emitLogySSSgcSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)emitLog",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC7emitLogySSSgcSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setEmitLog:",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC7emitLogySSSgcSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC7emitLogySSSgcSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC7emitLogySSSgcSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mapLoaded",
+            "printedName": "mapLoaded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MapboxMaps.MapView?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapboxMaps.MapView?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MapboxMaps.MapView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MapView",
+                            "printedName": "MapboxMaps.MapView",
+                            "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(py)mapLoaded",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC9mapLoadedy0A4Maps0dE0CSgcSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MapboxMaps.MapView?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MapboxMaps.MapView?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "MapboxMaps.MapView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MapView",
+                                "printedName": "MapboxMaps.MapView",
+                                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)mapLoaded",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC9mapLoadedy0A4Maps0dE0CSgcSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MapboxMaps.MapView?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MapboxMaps.MapView?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "MapboxMaps.MapView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MapView",
+                                "printedName": "MapboxMaps.MapView",
+                                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setMapLoaded:",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC9mapLoadedy0A4Maps0dE0CSgcSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC9mapLoadedy0A4Maps0dE0CSgcSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC9mapLoadedy0A4Maps0dE0CSgcSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "styleLoaded",
+            "printedName": "styleLoaded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MapboxMaps.MapView?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapboxMaps.MapView?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MapboxMaps.MapView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MapView",
+                            "printedName": "MapboxMaps.MapView",
+                            "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(py)styleLoaded",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC11styleLoadedy0A4Maps0dE0CSgcSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MapboxMaps.MapView?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MapboxMaps.MapView?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "MapboxMaps.MapView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MapView",
+                                "printedName": "MapboxMaps.MapView",
+                                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)styleLoaded",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC11styleLoadedy0A4Maps0dE0CSgcSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MapboxMaps.MapView?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MapboxMaps.MapView?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "MapboxMaps.MapView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MapView",
+                                "printedName": "MapboxMaps.MapView",
+                                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setStyleLoaded:",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC11styleLoadedy0A4Maps0dE0CSgcSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC11styleLoadedy0A4Maps0dE0CSgcSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC11styleLoadedy0A4Maps0dE0CSgcSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cameraChanged",
+            "printedName": "cameraChanged",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MapboxMaps.MapView?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapboxMaps.MapView?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MapboxMaps.MapView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MapView",
+                            "printedName": "MapboxMaps.MapView",
+                            "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(py)cameraChanged",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC13cameraChangedy0A4Maps0dE0CSgcSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MapboxMaps.MapView?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MapboxMaps.MapView?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "MapboxMaps.MapView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MapView",
+                                "printedName": "MapboxMaps.MapView",
+                                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)cameraChanged",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC13cameraChangedy0A4Maps0dE0CSgcSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MapboxMaps.MapView?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MapboxMaps.MapView?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "MapboxMaps.MapView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MapView",
+                                "printedName": "MapboxMaps.MapView",
+                                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setCameraChanged:",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC13cameraChangedy0A4Maps0dE0CSgcSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC13cameraChangedy0A4Maps0dE0CSgcSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC13cameraChangedy0A4Maps0dE0CSgcSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewportUpdate",
+            "printedName": "viewportUpdate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.Bool) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(py)viewportUpdate",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC14viewportUpdateySbcSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)viewportUpdate",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC14viewportUpdateySbcSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.Bool) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Bool) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setViewportUpdate:",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC14viewportUpdateySbcSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC14viewportUpdateySbcSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC14viewportUpdateySbcSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locationUpdate",
+            "printedName": "locationUpdate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Mapbox_Bindings_Objc.LatLng?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Mapbox_Bindings_Objc.LatLng?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LatLng",
+                            "printedName": "Mapbox_Bindings_Objc.LatLng",
+                            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(py)locationUpdate",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC14locationUpdateyAA6LatLngCSgcSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Mapbox_Bindings_Objc.LatLng?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Mapbox_Bindings_Objc.LatLng?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "LatLng",
+                                "printedName": "Mapbox_Bindings_Objc.LatLng",
+                                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)locationUpdate",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC14locationUpdateyAA6LatLngCSgcSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Mapbox_Bindings_Objc.LatLng?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Mapbox_Bindings_Objc.LatLng?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Mapbox_Bindings_Objc.LatLng?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "LatLng",
+                                "printedName": "Mapbox_Bindings_Objc.LatLng",
+                                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setLocationUpdate:",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC14locationUpdateyAA6LatLngCSgcSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC14locationUpdateyAA6LatLngCSgcSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC14locationUpdateyAA6LatLngCSgcSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locationAnimationCompleted",
+            "printedName": "locationAnimationCompleted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MapboxMaps.MapView?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MapboxMaps.MapView?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "MapboxMaps.MapView?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MapView",
+                            "printedName": "MapboxMaps.MapView",
+                            "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(py)locationAnimationCompleted",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC26locationAnimationCompletedy0A4Maps0dE0CSgcSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MapboxMaps.MapView?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MapboxMaps.MapView?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "MapboxMaps.MapView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MapView",
+                                "printedName": "MapboxMaps.MapView",
+                                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)locationAnimationCompleted",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC26locationAnimationCompletedy0A4Maps0dE0CSgcSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MapboxMaps.MapView?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MapboxMaps.MapView?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "MapboxMaps.MapView?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "MapView",
+                                "printedName": "MapboxMaps.MapView",
+                                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setLocationAnimationCompleted:",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC26locationAnimationCompletedy0A4Maps0dE0CSgcSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC26locationAnimationCompletedy0A4Maps0dE0CSgcSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC26locationAnimationCompletedy0A4Maps0dE0CSgcSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create(frame:mapInitOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapInitOptions",
+                "printedName": "MapboxMaps.MapInitOptions",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapInitOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)createWithFrame:mapInitOptions:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC6create5frame14mapInitOptions0A4Maps0dE0CSo6CGRectV_AG0djK0CtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "createWithFrame:mapInitOptions:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setStyle",
+            "printedName": "setStyle(mapView:style:completed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setStyleWithMapView:style:completed:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC8setStyle03mapE05style9completedy0A4Maps0dE0C_SSySbctF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "setStyleWithMapView:style:completed:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCenterAndZoom",
+            "printedName": "setCenterAndZoom(mapView:latitude:longitude:zoom:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setCenterAndZoomWithMapView:latitude:longitude:zoom:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC16setCenterAndZoom03mapE08latitude9longitude4zoomy0A4Maps0dE0C_S3dtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "setCenterAndZoomWithMapView:latitude:longitude:zoom:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "moveCameraToBounds",
+            "printedName": "moveCameraToBounds(mapView:bounds:padding:duration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Mapbox_Bindings_Objc.LatLng]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LatLng",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng",
+                    "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIEdgeInsets",
+                "printedName": "UIKit.UIEdgeInsets",
+                "usr": "c:@S@UIEdgeInsets"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)moveCameraToBoundsWithMapView:bounds:padding:duration:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC18moveCameraToBounds03mapE06bounds7padding8durationy0A4Maps0dE0C_SayAA6LatLngCGSo12UIEdgeInsetsVSdtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "moveCameraToBoundsWithMapView:bounds:padding:duration:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "featuresAtPoint",
+            "printedName": "featuresAtPoint(mapView:point:completed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)featuresAtPointWithMapView:point:completed:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC15featuresAtPoint03mapE05point9completedy0A4Maps0dE0C_So7CGPointVySaySSGctF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "featuresAtPointWithMapView:point:completed:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "CoordinatePointAtPoint",
+            "printedName": "CoordinatePointAtPoint(mapView:point:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)CoordinatePointAtPointWithMapView:point:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC017CoordinatePointAtH003mapE05pointSo7CGPointV0A4Maps0dE0C_AHtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "CoordinatePointAtPointWithMapView:point:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBounds",
+            "printedName": "getBounds(mapView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MapBounds",
+                "printedName": "Mapbox_Bindings_Objc.MapBounds",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapBounds"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)getBoundsWithMapView:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC9getBounds03mapE0AA0dH0C0A4Maps0dE0C_tF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "getBoundsWithMapView:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "styleImageExists",
+            "printedName": "styleImageExists(mapView:id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)styleImageExistsWithMapView:id:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC16styleImageExists03mapE02idSb0A4Maps0dE0C_SStF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "styleImageExistsWithMapView:id:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addStyleImage",
+            "printedName": "addStyleImage(mapView:id:base64:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addStyleImageWithMapView:id:base64:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC13addStyleImage03mapE02id6base64y0A4Maps0dE0C_S2StF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addStyleImageWithMapView:id:base64:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAllLayerIdentifiers",
+            "printedName": "getAllLayerIdentifiers(mapView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)getAllLayerIdentifiersWithMapView:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC22getAllLayerIdentifiers03mapE0SaySSG0A4Maps0dE0C_tF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "getAllLayerIdentifiersWithMapView:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeLayer",
+            "printedName": "removeLayer(mapView:id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)removeLayerWithMapView:id:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC11removeLayer03mapE02idy0A4Maps0dE0C_SStF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "removeLayerWithMapView:id:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "layerExists",
+            "printedName": "layerExists(mapView:id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)layerExistsWithMapView:id:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC11layerExists03mapE02idSb0A4Maps0dE0C_SStF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "layerExistsWithMapView:id:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLayerVisibility",
+            "printedName": "setLayerVisibility(mapView:id:visible:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setLayerVisibilityWithMapView:id:visible:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC18setLayerVisibility03mapE02id7visibley0A4Maps0dE0C_SSSbtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "setLayerVisibilityWithMapView:id:visible:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addLineLayer",
+            "printedName": "addLineLayer(mapView:id:sourceId:visible:predicateId:referenceLayer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addLineLayerWithMapView:id:sourceId:visible:predicateId:referenceLayer:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC12addLineLayer03mapE02id8sourceId7visible09predicateM009referenceI0y0A4Maps0dE0C_S2SSbSSSgANtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addLineLayerWithMapView:id:sourceId:visible:predicateId:referenceLayer:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addLineLayer",
+            "printedName": "addLineLayer(mapView:id:sourceId:sourceLayer:visible:color:lineWidth:predicateKey:predicateId:referenceLayer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addLineLayerWithMapView:id:sourceId:sourceLayer:visible:color:lineWidth:predicateKey:predicateId:referenceLayer:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC12addLineLayer03mapE02id8sourceId0lI07visible5color9lineWidth12predicateKey0rM009referenceI0y0A4Maps0dE0C_S3SSbSo7UIColorCSdS2SSgATtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addLineLayerWithMapView:id:sourceId:sourceLayer:visible:color:lineWidth:predicateKey:predicateId:referenceLayer:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateLineLayer",
+            "printedName": "updateLineLayer(mapView:id:sourceId:visible:predicateId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)updateLineLayerWithMapView:id:sourceId:visible:predicateId:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC15updateLineLayer03mapE02id8sourceId7visible09predicateM0y0A4Maps0dE0C_S2SSbSSSgtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "updateLineLayerWithMapView:id:sourceId:visible:predicateId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateLineLayer",
+            "printedName": "updateLineLayer(mapView:id:sourceId:sourceLayer:visible:color:lineWidth:predicateKey:predicateId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)updateLineLayerWithMapView:id:sourceId:sourceLayer:visible:color:lineWidth:predicateKey:predicateId:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC15updateLineLayer03mapE02id8sourceId0lI07visible5color9lineWidth12predicateKey0rM0y0A4Maps0dE0C_S3SSbSo7UIColorCSdS2SSgtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "updateLineLayerWithMapView:id:sourceId:sourceLayer:visible:color:lineWidth:predicateKey:predicateId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addFillLayer",
+            "printedName": "addFillLayer(mapView:id:sourceId:visible:predicateId:referenceLayer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addFillLayerWithMapView:id:sourceId:visible:predicateId:referenceLayer:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC12addFillLayer03mapE02id8sourceId7visible09predicateM009referenceI0y0A4Maps0dE0C_S2SSbSSSgANtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addFillLayerWithMapView:id:sourceId:visible:predicateId:referenceLayer:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateFillLayer",
+            "printedName": "updateFillLayer(mapView:id:sourceId:visible:predicateId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)updateFillLayerWithMapView:id:sourceId:visible:predicateId:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC15updateFillLayer03mapE02id8sourceId7visible09predicateM0y0A4Maps0dE0C_S2SSbSSSgtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "updateFillLayerWithMapView:id:sourceId:visible:predicateId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addSymbolLayer",
+            "printedName": "addSymbolLayer(mapView:id:sourceId:visible:minZoom:predicateId:referenceLayer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addSymbolLayerWithMapView:id:sourceId:visible:minZoom:predicateId:referenceLayer:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC14addSymbolLayer03mapE02id8sourceId7visible7minZoom09predicateM009referenceI0y0A4Maps0dE0C_S2SSbSdSSSgAOtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addSymbolLayerWithMapView:id:sourceId:visible:minZoom:predicateId:referenceLayer:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateSymbolLayer",
+            "printedName": "updateSymbolLayer(mapView:id:sourceId:visible:minZoom:predicateId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)updateSymbolLayerWithMapView:id:sourceId:visible:minZoom:predicateId:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC17updateSymbolLayer03mapE02id8sourceId7visible7minZoom09predicateM0y0A4Maps0dE0C_S2SSbSdSSSgtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "updateSymbolLayerWithMapView:id:sourceId:visible:minZoom:predicateId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDisputedBoundries",
+            "printedName": "setDisputedBoundries(mapView:ids:key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)setDisputedBoundriesWithMapView:ids:key:value:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC20setDisputedBoundries03mapE03ids3key5valuey0A4Maps0dE0C_SaySSGS2StF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "setDisputedBoundriesWithMapView:ids:key:value:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addRasterTileLayer",
+            "printedName": "addRasterTileLayer(mapView:id:visible:minZoom:maxZoom:referenceLayer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addRasterTileLayerWithMapView:id:visible:minZoom:maxZoom:referenceLayer:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC18addRasterTileLayer03mapE02id7visible7minZoom03maxO009referenceJ0y0A4Maps0dE0C_SSSbS2dSSSgtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addRasterTileLayerWithMapView:id:visible:minZoom:maxZoom:referenceLayer:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateRasterTileLayer",
+            "printedName": "updateRasterTileLayer(mapView:id:visible:minZoom:maxZoom:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)updateRasterTileLayerWithMapView:id:visible:minZoom:maxZoom:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC21updateRasterTileLayer03mapE02id7visible7minZoom03maxO0y0A4Maps0dE0C_SSSbS2dtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "updateRasterTileLayerWithMapView:id:visible:minZoom:maxZoom:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sourceExists",
+            "printedName": "sourceExists(mapView:id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)sourceExistsWithMapView:id:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC12sourceExists03mapE02idSb0A4Maps0dE0C_SStF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "sourceExistsWithMapView:id:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAllSourceIdentifiers",
+            "printedName": "getAllSourceIdentifiers(mapView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)getAllSourceIdentifiersWithMapView:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC23getAllSourceIdentifiers03mapE0SaySSG0A4Maps0dE0C_tF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "getAllSourceIdentifiersWithMapView:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addSource",
+            "printedName": "addSource(mapView:id:geoJson:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addSourceWithMapView:id:geoJson:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC9addSource03mapE02id7geoJsony0A4Maps0dE0C_S2StF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addSourceWithMapView:id:geoJson:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateSource",
+            "printedName": "updateSource(mapView:id:geoJson:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)updateSourceWithMapView:id:geoJson:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC12updateSource03mapE02id7geoJsony0A4Maps0dE0C_S2StF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "updateSourceWithMapView:id:geoJson:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeSource",
+            "printedName": "removeSource(mapView:id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)removeSourceWithMapView:id:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC12removeSource03mapE02idy0A4Maps0dE0C_SStF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "removeSourceWithMapView:id:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addRasterTileSource",
+            "printedName": "addRasterTileSource(mapView:id:urls:tileSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addRasterTileSourceWithMapView:id:urls:tileSize:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC19addRasterTileSource03mapE02id4urls8tileSizey0A4Maps0dE0C_SSSaySSGSdtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addRasterTileSourceWithMapView:id:urls:tileSize:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addVectorTileSource",
+            "printedName": "addVectorTileSource(mapView:id:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addVectorTileSourceWithMapView:id:url:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC19addVectorTileSource03mapE02id3urly0A4Maps0dE0C_S2StF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addVectorTileSourceWithMapView:id:url:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addImageOverlaySource",
+            "printedName": "addImageOverlaySource(mapView:id:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addImageOverlaySourceWithMapView:id:url:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC21addImageOverlaySource03mapE02id3urly0A4Maps0dE0C_S2StF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addImageOverlaySourceWithMapView:id:url:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addHeatMapLayer",
+            "printedName": "addHeatMapLayer(mapView:id:visible:intensity:opacity:radius:stops:colors:referenceLayer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIColor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)addHeatMapLayerWithMapView:id:visible:intensity:opacity:radius:stops:colors:referenceLayer:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC07addHeatD5Layer03mapE02id7visible9intensity7opacity6radius5stops6colors09referenceI0y0A4Maps0dE0C_SSSbS3dSaySdGSaySo7UIColorCGSSSgtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "addHeatMapLayerWithMapView:id:visible:intensity:opacity:radius:stops:colors:referenceLayer:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateHeatMapLayer",
+            "printedName": "updateHeatMapLayer(mapView:id:visible:intensity:opacity:radius:stops:colors:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIColor]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)updateHeatMapLayerWithMapView:id:visible:intensity:opacity:radius:stops:colors:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC010updateHeatD5Layer03mapE02id7visible9intensity7opacity6radius5stops6colorsy0A4Maps0dE0C_SSSbS3dSaySdGSaySo7UIColorCGtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "updateHeatMapLayerWithMapView:id:visible:intensity:opacity:radius:stops:colors:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CameraViewportStatusObserver",
+            "printedName": "CameraViewportStatusObserver",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "mapViewFactory",
+                "printedName": "mapViewFactory",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WeakStorage",
+                    "printedName": "Mapbox_Bindings_Objc.MapViewFactory?"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC03mapeF0ACSgvp",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC03mapeF0ACSgvp",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "ReferenceOwnership",
+                  "AccessControl"
+                ],
+                "ownership": 1,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Mapbox_Bindings_Objc.MapViewFactory?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MapViewFactory",
+                            "printedName": "Mapbox_Bindings_Objc.MapViewFactory",
+                            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC03mapeF0ACSgvg",
+                    "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC03mapeF0ACSgvg",
+                    "moduleName": "Mapbox_Bindings_Objc",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Mapbox_Bindings_Objc.MapViewFactory?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MapViewFactory",
+                            "printedName": "Mapbox_Bindings_Objc.MapViewFactory",
+                            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC03mapeF0ACSgvs",
+                    "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC03mapeF0ACSgvs",
+                    "moduleName": "Mapbox_Bindings_Objc",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC03mapeF0ACSgvM",
+                    "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC03mapeF0ACSgvM",
+                    "moduleName": "Mapbox_Bindings_Objc",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "viewportStatusDidChange",
+                "printedName": "viewportStatusDidChange(from:to:reason:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewportStatus",
+                    "printedName": "MapboxMaps.ViewportStatus",
+                    "usr": "s:10MapboxMaps14ViewportStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewportStatus",
+                    "printedName": "MapboxMaps.ViewportStatus",
+                    "usr": "s:10MapboxMaps14ViewportStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ViewportStatusChangeReason",
+                    "printedName": "MapboxMaps.ViewportStatusChangeReason",
+                    "usr": "s:10MapboxMaps26ViewportStatusChangeReasonV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC08viewportI9DidChange4from2to6reasony0A4Maps0hI0O_AlJ0hiM6ReasonVtF",
+                "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC08viewportI9DidChange4from2to6reasony0A4Maps0hI0O_AlJ0hiM6ReasonVtF",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC28CameraViewportStatusObserverC",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasMissingDesignatedInitializers": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "ViewportStatusObserver",
+                "printedName": "ViewportStatusObserver",
+                "usr": "s:10MapboxMaps22ViewportStatusObserverP",
+                "mangledName": "$s10MapboxMaps22ViewportStatusObserverP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startUserLocationTracking",
+            "printedName": "startUserLocationTracking(mapView:zoom:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)startUserLocationTrackingWithMapView:zoom:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC25startUserLocationTracking03mapE04zoomy0A4Maps0dE0C_SdtF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "startUserLocationTrackingWithMapView:zoom:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "StopUserLocationTracking",
+            "printedName": "StopUserLocationTracking(mapView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MapView",
+                "printedName": "MapboxMaps.MapView",
+                "usr": "c:@M@MapboxMaps@objc(cs)MapView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)StopUserLocationTrackingWithMapView:",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC24StopUserLocationTracking03mapE0y0A4Maps0dE0C_tF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "StopUserLocationTrackingWithMapView:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MapViewFactory",
+                "printedName": "Mapbox_Bindings_Objc.MapViewFactory",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory(im)init",
+            "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryCACycfc",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)MapViewFactory",
+        "mangledName": "$s20Mapbox_Bindings_Objc14MapViewFactoryC",
+        "moduleName": "Mapbox_Bindings_Objc",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OfflineManagerBridge",
+        "printedName": "OfflineManagerBridge",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "emitLog",
+            "printedName": "emitLog",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)OfflineManagerBridge(py)emitLog",
+            "mangledName": "$s20Mapbox_Bindings_Objc20OfflineManagerBridgeC7emitLogySSSgcSgvp",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)OfflineManagerBridge(im)emitLog",
+                "mangledName": "$s20Mapbox_Bindings_Objc20OfflineManagerBridgeC7emitLogySSSgcSgvg",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Swift.String?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)OfflineManagerBridge(im)setEmitLog:",
+                "mangledName": "$s20Mapbox_Bindings_Objc20OfflineManagerBridgeC7emitLogySSSgcSgvs",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20Mapbox_Bindings_Objc20OfflineManagerBridgeC7emitLogySSSgcSgvM",
+                "mangledName": "$s20Mapbox_Bindings_Objc20OfflineManagerBridgeC7emitLogySSSgcSgvM",
+                "moduleName": "Mapbox_Bindings_Objc",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getAllTileRegions",
+            "printedName": "getAllTileRegions(completed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)OfflineManagerBridge(im)getAllTileRegionsWithCompleted:",
+            "mangledName": "$s20Mapbox_Bindings_Objc20OfflineManagerBridgeC17getAllTileRegions9completedyySaySSGc_tF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "getAllTileRegionsWithCompleted:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "RemoveTileRegion",
+            "printedName": "RemoveTileRegion(id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)OfflineManagerBridge(im)RemoveTileRegionWithId:",
+            "mangledName": "$s20Mapbox_Bindings_Objc20OfflineManagerBridgeC16RemoveTileRegion2idySS_tF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "RemoveTileRegionWithId:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "downloadTileRegion",
+            "printedName": "downloadTileRegion(accessToken:id:style:metadata:bounds:minZoom:maxZoom:completed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSDictionary",
+                "printedName": "Foundation.NSDictionary",
+                "usr": "c:objc(cs)NSDictionary"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Mapbox_Bindings_Objc.LatLng]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LatLng",
+                    "printedName": "Mapbox_Bindings_Objc.LatLng",
+                    "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)LatLng"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)OfflineManagerBridge(im)downloadTileRegionWithAccessToken:id:style:metadata:bounds:minZoom:maxZoom:completed:",
+            "mangledName": "$s20Mapbox_Bindings_Objc20OfflineManagerBridgeC18downloadTileRegion11accessToken2id5style8metadata6bounds7minZoom03maxQ09completedySS_S2SSo12NSDictionaryCSayAA6LatLngCGS2dySbctF",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "objc_name": "downloadTileRegionWithAccessToken:id:style:metadata:bounds:minZoom:maxZoom:completed:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OfflineManagerBridge",
+                "printedName": "Mapbox_Bindings_Objc.OfflineManagerBridge",
+                "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)OfflineManagerBridge"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)OfflineManagerBridge(im)init",
+            "mangledName": "$s20Mapbox_Bindings_Objc20OfflineManagerBridgeCACycfc",
+            "moduleName": "Mapbox_Bindings_Objc",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Mapbox_Bindings_Objc@objc(cs)OfflineManagerBridge",
+        "mangledName": "$s20Mapbox_Bindings_Objc20OfflineManagerBridgeC",
+        "moduleName": "Mapbox_Bindings_Objc",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/nathanvarghese\/Projects\/TASMobile\/Mapbox.Bindings.Objc\/Mapbox.Bindings.Objc\/Mapbox_Bindings_iOS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 918,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathanvarghese\/Projects\/TASMobile\/Mapbox.Bindings.Objc\/Mapbox.Bindings.Objc\/Mapbox_Bindings_iOS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 987,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/nathanvarghese\/Projects\/TASMobile\/Mapbox.Bindings.Objc\/Mapbox.Bindings.Objc\/Mapbox_Bindings_iOS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1023,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

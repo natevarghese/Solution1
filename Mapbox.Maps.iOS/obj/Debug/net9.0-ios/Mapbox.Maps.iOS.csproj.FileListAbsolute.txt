@@ -1,0 +1,12 @@
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/bin/Debug/net9.0-ios/Mapbox.Maps.iOS.dll
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/bin/Debug/net9.0-ios/Mapbox.Maps.iOS.pdb
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/obj/Debug/net9.0-ios/_ProcessedBundleResourcesPath.items
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/obj/Debug/net9.0-ios/_ProcessedContentPath.items
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/obj/Debug/net9.0-ios/Mapbox.Maps.iOS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/obj/Debug/net9.0-ios/Mapbox.Maps.iOS.AssemblyInfoInputs.cache
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/obj/Debug/net9.0-ios/Mapbox.Maps.iOS.AssemblyInfo.cs
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/obj/Debug/net9.0-ios/Mapbox.Maps.iOS.csproj.CoreCompileInputs.cache
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/obj/Debug/net9.0-ios/Mapbox.Maps.iOS.dll
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/obj/Debug/net9.0-ios/refint/Mapbox.Maps.iOS.dll
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/obj/Debug/net9.0-ios/Mapbox.Maps.iOS.pdb
+/Users/nathanvarghese/Projects/Solution1/Mapbox.Maps.iOS/obj/Debug/net9.0-ios/ref/Mapbox.Maps.iOS.dll

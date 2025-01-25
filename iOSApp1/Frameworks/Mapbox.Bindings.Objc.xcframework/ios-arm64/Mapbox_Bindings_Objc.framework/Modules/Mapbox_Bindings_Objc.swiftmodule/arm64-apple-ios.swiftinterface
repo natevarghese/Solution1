@@ -1,0 +1,90 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Mapbox_Bindings_Objc
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import MapboxMaps
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class MapInitOptionsFactory : ObjectiveC.NSObject {
+  @objc public static func create(accessToken: Swift.String, style: Swift.String, centerLat: Swift.Double, centerLon: Swift.Double, zoom: Swift.Double) -> MapboxMaps.MapInitOptions
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class MapBounds : ObjectiveC.NSObject {
+  @objc public var northEast: Mapbox_Bindings_Objc.LatLng?
+  @objc public var southWest: Mapbox_Bindings_Objc.LatLng?
+  @objc public var center: Mapbox_Bindings_Objc.LatLng?
+  @objc public var zoom: Swift.Double
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class LatLng : ObjectiveC.NSObject {
+  @objc public var lat: Swift.Double
+  @objc public var lon: Swift.Double
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class MapViewFactory : ObjectiveC.NSObject {
+  @objc public var emitLog: ((Swift.String?) -> ())?
+  @objc public var mapLoaded: ((MapboxMaps.MapView?) -> ())?
+  @objc public var styleLoaded: ((MapboxMaps.MapView?) -> ())?
+  @objc public var cameraChanged: ((MapboxMaps.MapView?) -> ())?
+  @objc public var viewportUpdate: ((Swift.Bool) -> ())?
+  @objc public var locationUpdate: ((Mapbox_Bindings_Objc.LatLng?) -> ())?
+  @objc public var locationAnimationCompleted: ((MapboxMaps.MapView?) -> ())?
+  @objc public func create(frame: CoreFoundation.CGRect, mapInitOptions: MapboxMaps.MapInitOptions) -> MapboxMaps.MapView
+  @objc public func setStyle(mapView: MapboxMaps.MapView, style: Swift.String, completed: @escaping (Swift.Bool) -> ())
+  @objc public func setCenterAndZoom(mapView: MapboxMaps.MapView, latitude: Swift.Double, longitude: Swift.Double, zoom: Swift.Double)
+  @objc public func moveCameraToBounds(mapView: MapboxMaps.MapView, bounds: [Mapbox_Bindings_Objc.LatLng], padding: UIKit.UIEdgeInsets, duration: Swift.Double)
+  @objc public func featuresAtPoint(mapView: MapboxMaps.MapView, point: CoreFoundation.CGPoint, completed: @escaping ([Swift.String]) -> ())
+  @objc public func CoordinatePointAtPoint(mapView: MapboxMaps.MapView, point: CoreFoundation.CGPoint) -> CoreFoundation.CGPoint
+  @objc public func getBounds(mapView: MapboxMaps.MapView) -> Mapbox_Bindings_Objc.MapBounds
+  @objc public func styleImageExists(mapView: MapboxMaps.MapView, id: Swift.String) -> Swift.Bool
+  @objc public func addStyleImage(mapView: MapboxMaps.MapView, id: Swift.String, base64: Swift.String)
+  @objc public func getAllLayerIdentifiers(mapView: MapboxMaps.MapView) -> [Swift.String]
+  @objc public func removeLayer(mapView: MapboxMaps.MapView, id: Swift.String)
+  @objc public func layerExists(mapView: MapboxMaps.MapView, id: Swift.String) -> Swift.Bool
+  @objc public func setLayerVisibility(mapView: MapboxMaps.MapView, id: Swift.String, visible: Swift.Bool)
+  @objc public func addLineLayer(mapView: MapboxMaps.MapView, id: Swift.String, sourceId: Swift.String, visible: Swift.Bool, predicateId: Swift.String?, referenceLayer: Swift.String?)
+  @objc public func addLineLayer(mapView: MapboxMaps.MapView, id: Swift.String, sourceId: Swift.String, sourceLayer: Swift.String, visible: Swift.Bool, color: UIKit.UIColor, lineWidth: Swift.Double, predicateKey: Swift.String, predicateId: Swift.String?, referenceLayer: Swift.String?)
+  @objc public func updateLineLayer(mapView: MapboxMaps.MapView, id: Swift.String, sourceId: Swift.String, visible: Swift.Bool, predicateId: Swift.String?)
+  @objc public func updateLineLayer(mapView: MapboxMaps.MapView, id: Swift.String, sourceId: Swift.String, sourceLayer: Swift.String, visible: Swift.Bool, color: UIKit.UIColor, lineWidth: Swift.Double, predicateKey: Swift.String, predicateId: Swift.String?)
+  @objc public func addFillLayer(mapView: MapboxMaps.MapView, id: Swift.String, sourceId: Swift.String, visible: Swift.Bool, predicateId: Swift.String?, referenceLayer: Swift.String?)
+  @objc public func updateFillLayer(mapView: MapboxMaps.MapView, id: Swift.String, sourceId: Swift.String, visible: Swift.Bool, predicateId: Swift.String?)
+  @objc public func addSymbolLayer(mapView: MapboxMaps.MapView, id: Swift.String, sourceId: Swift.String, visible: Swift.Bool, minZoom: Swift.Double, predicateId: Swift.String?, referenceLayer: Swift.String?)
+  @objc public func updateSymbolLayer(mapView: MapboxMaps.MapView, id: Swift.String, sourceId: Swift.String, visible: Swift.Bool, minZoom: Swift.Double, predicateId: Swift.String?)
+  @objc public func setDisputedBoundries(mapView: MapboxMaps.MapView, ids: [Swift.String], key: Swift.String, value: Swift.String)
+  @objc public func addRasterTileLayer(mapView: MapboxMaps.MapView, id: Swift.String, visible: Swift.Bool, minZoom: Swift.Double, maxZoom: Swift.Double, referenceLayer: Swift.String?)
+  @objc public func updateRasterTileLayer(mapView: MapboxMaps.MapView, id: Swift.String, visible: Swift.Bool, minZoom: Swift.Double, maxZoom: Swift.Double)
+  @objc public func sourceExists(mapView: MapboxMaps.MapView, id: Swift.String) -> Swift.Bool
+  @objc public func getAllSourceIdentifiers(mapView: MapboxMaps.MapView) -> [Swift.String]
+  @objc public func addSource(mapView: MapboxMaps.MapView, id: Swift.String, geoJson: Swift.String)
+  @objc public func updateSource(mapView: MapboxMaps.MapView, id: Swift.String, geoJson: Swift.String)
+  @objc public func removeSource(mapView: MapboxMaps.MapView, id: Swift.String)
+  @objc public func addRasterTileSource(mapView: MapboxMaps.MapView, id: Swift.String, urls: [Swift.String], tileSize: Swift.Double)
+  @objc public func addVectorTileSource(mapView: MapboxMaps.MapView, id: Swift.String, url: Swift.String)
+  @objc public func addImageOverlaySource(mapView: MapboxMaps.MapView, id: Swift.String, url: Swift.String)
+  @objc public func addHeatMapLayer(mapView: MapboxMaps.MapView, id: Swift.String, visible: Swift.Bool, intensity: Swift.Double, opacity: Swift.Double, radius: Swift.Double, stops: [Swift.Double], colors: [UIKit.UIColor], referenceLayer: Swift.String?)
+  @objc public func updateHeatMapLayer(mapView: MapboxMaps.MapView, id: Swift.String, visible: Swift.Bool, intensity: Swift.Double, opacity: Swift.Double, radius: Swift.Double, stops: [Swift.Double], colors: [UIKit.UIColor])
+  @_hasMissingDesignatedInitializers public class CameraViewportStatusObserver : MapboxMaps.ViewportStatusObserver {
+    weak public var mapViewFactory: Mapbox_Bindings_Objc.MapViewFactory?
+    public func viewportStatusDidChange(from fromStatus: MapboxMaps.ViewportStatus, to toStatus: MapboxMaps.ViewportStatus, reason: MapboxMaps.ViewportStatusChangeReason)
+    @objc deinit
+  }
+  @objc public func startUserLocationTracking(mapView: MapboxMaps.MapView, zoom: Swift.Double)
+  @objc public func StopUserLocationTracking(mapView: MapboxMaps.MapView)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class OfflineManagerBridge : ObjectiveC.NSObject {
+  @objc public var emitLog: ((Swift.String?) -> ())?
+  @objc public func getAllTileRegions(completed: @escaping ([Swift.String]) -> ())
+  @objc public func RemoveTileRegion(id: Swift.String)
+  @objc public func downloadTileRegion(accessToken: Swift.String, id: Swift.String, style: Swift.String, metadata: Foundation.NSDictionary, bounds: [Mapbox_Bindings_Objc.LatLng], minZoom: Swift.Double, maxZoom: Swift.Double, completed: @escaping (Swift.Bool) -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}

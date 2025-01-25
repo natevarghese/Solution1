@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iOSApp1", "iOSApp1\iOSApp1.csproj", "{8C7E372E-ADCB-48A9-A791-726EAFCBA5F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapbox.Bindings.iOS", "Mapbox.Bindings.iOS\Mapbox.Bindings.iOS.csproj", "{78BE8A2F-E8B6-4A01-B0BE-92E74424C63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapbox.Maps.iOS", "Mapbox.Maps.iOS\Mapbox.Maps.iOS.csproj", "{A9DC37F2-E04A-40EE-A8C5-BB4737572B3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C7E372E-ADCB-48A9-A791-726EAFCBA5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C7E372E-ADCB-48A9-A791-726EAFCBA5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C7E372E-ADCB-48A9-A791-726EAFCBA5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C7E372E-ADCB-48A9-A791-726EAFCBA5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78BE8A2F-E8B6-4A01-B0BE-92E74424C63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BE8A2F-E8B6-4A01-B0BE-92E74424C63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BE8A2F-E8B6-4A01-B0BE-92E74424C63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BE8A2F-E8B6-4A01-B0BE-92E74424C63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9DC37F2-E04A-40EE-A8C5-BB4737572B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9DC37F2-E04A-40EE-A8C5-BB4737572B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9DC37F2-E04A-40EE-A8C5-BB4737572B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9DC37F2-E04A-40EE-A8C5-BB4737572B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

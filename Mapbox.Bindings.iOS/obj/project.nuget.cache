@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sY1w24syMY8=",
+  "success": true,
+  "projectFilePath": "/Users/nathanvarghese/Projects/Solution1/Mapbox.Bindings.iOS/Mapbox.Bindings.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/nathanvarghese/.nuget/packages/microsoft.net.illink.tasks/9.0.1/microsoft.net.illink.tasks.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
